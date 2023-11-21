@@ -1,0 +1,111 @@
+.userBody {
+  height:55vmax;
+  background-color: #030303;
+  color: #ffffff;
+}
+
+.userElement {
+  position: relative;
+  display: flex;
+  /* row-gap: 1rem; */
+  flex-direction: column;
+  width: 37.5rem;
+  margin: auto;
+  top: 2rem;
+}
+
+.chargeClass {
+  display: flex;
+  align-items: center;
+  gap: 9rem;
+}
+
+.customClass {
+  display: flex;
+  align-items: baseline;
+  column-gap: 11rem;
+}
+
+.regularSongClass {
+  display: flex;
+  align-items: baseline;
+  gap: 6rem;
+}
+
+.inputStyle{
+    background-color:transparent;
+    height: 2rem;
+    border-radius:0.5rem;
+    width:25%;
+    color: #ffffff;
+    border-color: #ffffff;   
+}
+
+.disableInputStyle{
+    background-color:transparent;
+    height: 2rem;
+    border-radius:0.5rem;
+    width:25%;
+    color: #C2C2C2;
+    border-color: #C2C2C2;
+}
+
+.graphVisible{
+  max-width: 37.5rem;
+}
+
+.graphHidden{
+ display:none;
+}
+
+@media screen and (max-width:1300px) {
+  .userBody{
+   height: 65vmax;
+  }
+  .userElement{
+
+  }
+}
+@media screen and (max-width:1248px) {
+  .userBody{
+   height: 85vmax;
+  }
+  .userElement{
+    width: 35.5rem;
+  }
+}
+@media screen and (max-width:995px) {
+  .userBody{
+   height: 95vmax;
+  }
+  .userElement{
+    
+  }
+}
+@media screen and (max-width:900px) {
+  .userBody{
+   height: 120vmax;
+  }
+  .userElement{
+    width: 30.5rem;
+  }
+}
+
+@media screen and (max-width:730px) {
+  .userBody{
+   height: 140vmax;
+   width: 120%;
+  }
+  .userElement{
+    width: 25.5rem;
+  }
+}
+@media screen and (max-width:660px) {
+  .userBody{
+   max-height: 180vmax;
+   width: 160%;
+  }
+  .userElement{
+    width: 25.5rem;
+  }
+}

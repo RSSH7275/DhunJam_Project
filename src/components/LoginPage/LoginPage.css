@@ -1,0 +1,46 @@
+
+.logBody{
+    min-height: 100vh;
+    background-color: #030303;
+    color: #FFFFFF;
+}
+
+
+.logElements{
+    position: relative;
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    width: 37.5rem;
+    margin: auto;
+    top: 12rem;
+}
+
+.passwordSet{
+    display: flex;
+    align-items: center;
+}
+
+.passwordButton{
+    position:absolute;
+    background-color: transparent;
+    color: #FFFFFF;
+    right: 0;
+    border-color: transparent;
+}
+
+@media screen and (max-width:690px){
+    .logElements{
+        width: 32.5rem;
+    }
+}
+@media screen and (max-width:678px){
+    .logElements{
+        width: 25.5rem;
+    }
+
+    .logBody{
+        min-height: 120vh;
+        width: 100vw;
+    }
+}
